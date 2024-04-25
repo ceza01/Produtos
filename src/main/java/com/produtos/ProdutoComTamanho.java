@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class ProdutoComTamanho extends Produto {
     private String tamanho;
-    public ProdutoComTamanho(String nome, int codigo, double preco, String tamanho) {
+    public ProdutoComTamanho(String nome, String codigo, double preco, String tamanho) {
         super(nome, codigo, preco);
         this.tamanho = tamanho;
     }

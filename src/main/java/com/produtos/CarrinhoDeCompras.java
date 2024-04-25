@@ -34,6 +34,6 @@ public class CarrinhoDeCompras {
             int quantidade = itens.get(produto);
             total += produto.getPreco() * quantidade;
         }
-        return total;
+        return Math.floor(total * 100) / 100;
     }
 }
