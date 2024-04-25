@@ -9,6 +9,14 @@ public class ProdutoComTamanho extends Produto {
         this.tamanho = tamanho;
     }
 
+    public String getTamanho() {
+        return tamanho;
+    }
+
+    public void setTamanho(String tamanho) {
+        this.tamanho = tamanho;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
