@@ -9,6 +9,14 @@ public class CarrinhoDeCompras {
         this.itens = new HashMap<>();
     }
 
+    public HashMap<Produto, Integer> getItens() {
+        return itens;
+    }
+
+    public void setItens(HashMap<Produto, Integer> itens) {
+        this.itens = itens;
+    }
+
     public void adicionaProduto(Produto produto, int quantidade){
         if(itens.containsKey(produto)){
             int quantidadeAtual = itens.get(produto);

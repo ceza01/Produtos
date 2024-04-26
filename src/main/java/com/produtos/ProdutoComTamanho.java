@@ -8,7 +8,6 @@ public class ProdutoComTamanho extends Produto {
         super(nome, codigo, preco);
         this.tamanho = tamanho;
     }
-
     public String getTamanho() {
         return tamanho;
     }
